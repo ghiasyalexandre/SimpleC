@@ -144,10 +144,10 @@ int main(int argc, char **argv)
 
 	printf("define void @print_intger(i32) #0 {\n");
 	printf("\n");
-
+	
+	readFile(ifp);
+	
 	printf("\tret i32 0\n");
 	printf("}\n");
-	readFile(ifp);
-
 	return 0;
 }
